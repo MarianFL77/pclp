@@ -1,0 +1,88 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+
+# Temporary files
+*~
+*.swp
+*.swo
+
+# Build directories
+build/
+Debug/
+Release/
+x64/
+x86/
+CMakeFiles/
+
+# CMake
+CMakeCache.txt
+CMakeFiles
+cmake_install.cmake
+Makefile
+
+# Visual Studio
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+.vs/
+
+# Code::Blocks
+*.depend
+*.layout
+*.workspace
+build/
+Debug/
+Release/
+
+
+# Eclipse
+.project
+.cproject
+
+# Qt Creator
+*.pro.user
+*.pro.user.*

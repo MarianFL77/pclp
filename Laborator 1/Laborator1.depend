@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1759841562 source:c:\users\doroh\desktop\facultate\laborator pclp\lab 1\laborator1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
