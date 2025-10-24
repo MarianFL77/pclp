@@ -183,20 +183,119 @@ int main() {
 //            printf("Ordine crescatoare: %.2lf %.2lf %.2lf\n", a, b, c);
 //
 //        Ex 10
-             int a, b, E;
-
-             printf("Introduceti a si b: ");
-             scanf("%d %d", &a, &b);
-
-             if (a>=10)
-                E=2*a-2*b;
-             else if (a> -3 && a<10)
-                E=a*b;
-             else
-                E=5;
-             printf("E = %d\n", E);
-
-
-    return 0;
-
-}
+//             int a, b, E;
+//
+//             printf("Introduceti a si b: ");
+//             scanf("%d %d", &a, &b);
+//
+//             if (a>=10)
+//                E=2*a-2*b;
+//             else if (a> -3 && a<10)
+//                E=a*b;
+//             else
+//                E=5;
+//             printf("E = %d\n", E);
+//
+//        Ex 11
+//
+//           int max(int x, int y) {return x > y ? x : y; }
+//           int min(int x, int y) {return x > y ? x : y; }
+//
+//           int a, b, c, d, e, result;
+//
+//           printf("Introduceti a, b, c, d, e: ");
+//           scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+//
+//           if (a<b) {
+//            result = max(min(e +b, c + d), min(a-b, c-d));
+//           } else if (a>b) {
+//            result = min(max(e+b, c + d), max(a-b,c-d));
+//           }
+//
+//           printf("Rezultat: %d\n", result);
+//
+//         Ex 12
+//
+//            float x, y;
+//            const float eps = 1e-6;
+//
+//            printf("Introduceti coordonatele (x y): ");
+//            scanf("%f %f", &x, &y);
+//
+//            if(fabs(x) < eps && fabs(y) < eps)
+//                printf("Originea (0,0)\n");
+//            else if (fabs(x) < eps)
+//                printf("Punctul se aflape axa 0y\n");
+//            else if (fabs(y) < eps)
+//                printf("Punctul se afla pe axa 0x\n");
+//            else if (x > 0 && y > 0)
+//                printf("Cadranul 1\n");
+//            else if (x < 0 && y > 0)
+//                printf("Cadranul 2\n");
+//            else if (x < 0 && y < 0)
+//                printf("Cadranul 3\n");
+//            else
+//                printf("Cadranul 4\n");
+//
+//
+//      Ex 13
+//
+//        double x, rezultat, numitor1, numitor2;
+//
+//          printf("Introdu valoarea lui x: ");
+//          scanf("%lf", &x);
+//
+//          numitor1 = x * x - 2 * x + 1;
+//          numitor2 = x * x + 5 * x + 6;
+//
+//          if (fabs(numitor1) < 1e-9 || fabs(numitor2) < 1e-9) {
+//            printf("Impartirea nu se poate efectua (numitorul este 0).\n");
+//          } else {
+//              rezultat = ((8 * x - 16) / numitor1) * ((x * x - 1) / numitor2);
+//              printf("Rezultatul expresiei este: %.4lf\n", rezultat);
+//
+//       Ex 14
+//
+//            char c;
+//
+//            printf("Introdu un caracter: ");
+//            scanf("%c", &c);
+//
+//            if ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'))
+//                printf("Caracterul '%c'  este o litera.\n", c);
+//            else
+//                printf("Caracterul '%c' NU este o litera.\n", c);
+//
+//
+//       Ex 15
+//
+//            float a, b, c;
+//
+//            printf("Introduceti cele trei laturi: ");
+//            scanf("%f %f %f", &a, &b, &c);
+//
+//            if(a + b > c && a + c > b && b + c > a) {
+//                printf("Cele trei laturi pot forma un triunghi.\n");
+//
+//                if(a == b && b == c)
+//                    printf("Triunghiul este echilateral.\n");
+//                else if (a == b || a == c || b == c)
+//                    printf("Triunghiul este isoscel.\n");
+//                else
+//                    printf("Triunghiul este oarecare.\n");
+//
+//            } else {
+//                printf("Cele trei laturi NU pot forma un triunghi.\n");
+//            }
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//    return 0;
+//}
